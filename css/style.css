@@ -2,9 +2,10 @@
 /* 1. Theme default css */
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900|Rubik:300,400,500,700,900');
  body {
-	font-family: 'Poppins', sans-serif;
+	 font-family: 'Rubik', sans-serif;
 	font-weight: normal;
 	font-style: normal;
+
 }
 .img {
 	max-width: 100%;
@@ -111,7 +112,7 @@ p {
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 30px;
-	color: #6e6e6e;
+	color: #151515;
 	margin-bottom: 15px;
 }
 hr {
@@ -173,7 +174,7 @@ label {
 	-moz-user-select: none;
 	background: #86ba09;
 	border: medium none;
-	border-radius: 30px;
+	border-radius: 15px;
 	color: #fff;
 	display: inline-block;
 	font-size: 14px;
@@ -248,12 +249,12 @@ label {
 .lang-icon span {
 	font-size: 14px;
 	font-family: 'Rubik', sans-serif;
-	color: #6e6e6e;
+	color: #151515;
 	font-weight: 400;
 }
 .lang-icon i {
 	font-size: 16px;
-	color: #6e6e6e;
+	color: #151515;
 	margin-right: 7px;
 }
 .header-lang-list {
@@ -448,7 +449,7 @@ label {
 }
 .main-menu nav > ul > li:first-child{margin-left:0;}
 .main-menu nav > ul > li > a {
-	color: #6e6e6e;
+	color: #151515;
 	display: block;
 	font-size: 14px;
 	font-weight: 500;
@@ -515,7 +516,7 @@ label {
 	margin-top: 36px;
 }
 .header-icon a {
-	color: #6e6e6e;
+	color: #151515;
 	font-size: 16px;
 	margin-right: 20px;
 	transition: .3s;
@@ -902,7 +903,7 @@ label {
 .pro-price{}
 .pro-price span {
 	font-size: 14px;
-	color: #6e6e6e;
+	color: #151515;
 	font-weight: 500;
 }
 .product1-button{}
@@ -957,16 +958,16 @@ label {
 	padding: 0 75px;
 	width: 100%;
 	background: #fff;
-	color: #6e6e6e;
+	color: #151515;
 	font-size: 14px;
 	border-radius: 15px;
 }
 .newsletter-form form input::placeholder {
-    color: #6e6e6e;
+    color: #151515;
 	font-size: 14px;
 }
 .newsletter-form form::-moz-placeholder {
-  	color: #6e6e6e;
+  	color: #151515;
 	font-size: 14px;
 }
 .news-icon{position: relative;}
@@ -979,7 +980,7 @@ label {
 	font-size: 16px;
 	text-align: center;
 	left: 40px;
-	color: #6e6e6e;
+	color: #151515;
 	top: 33px;
 	z-index: 99;
 }
@@ -1012,9 +1013,9 @@ label {
 }
 .choose-link li:last-child{padding-bottom:0;}
 .choose-text {
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 30px;
-	color: #6e6e6e;
+	color: #151515;
 	overflow: hidden;
 }
 .choose-icon {
@@ -1537,7 +1538,7 @@ label {
 }
 .counter-text span {
 	font-size: 18px;
-	color: #6e6e6e;
+	color: #151515;
 	font-weight: 400;
 	text-transform: capitalize;
 }
@@ -1720,7 +1721,7 @@ label {
 	background: #fff;
 	font-size: 16px;
 	left: -195px;
-	opacity: 0;
+	opacity: 1;
 	position: absolute;
 	text-align: center;
 	top: 50%;
@@ -1738,7 +1739,7 @@ label {
 	left: auto;
 	right: -195px;
 }
-.client2-active:hover .owl-nav div {
+.client2-active .owl-nav div {
 	opacity: 1;
 	visibility: visible;
 }
@@ -1793,7 +1794,7 @@ label {
 .blog-meta {}
 .blog-meta > span {
 	font-size: 13px;
-	color: #6e6e6e;
+	color: #151515;
 	font-weight: 400;
 	margin-right: 26px;
 }
@@ -1865,7 +1866,7 @@ label {
 }
 .blog-bg .blog-meta > span {
 	font-size: 13px;
-	color: #6e6e6e;
+	color: #151515;
 	font-weight: 400;
 	margin-right: 11px;
 }
@@ -2923,7 +2924,7 @@ ul.cat li a:hover {
 	padding-bottom: 26px;
 }
 .footer1 .fotter-menu li a {
-	color: #6e6e6e;
+	color: #151515;
 }
 .footer1 .fotter-menu li a:hover {
 	color: #ef8829;
@@ -2973,7 +2974,7 @@ ul.cat li a:hover {
 }
 .footer-info span {
 	font-size: 14px;
-	color: #6e6e6e;
+	color: #151515;
 }
 
 .subscribes-form  form {}
@@ -3019,7 +3020,7 @@ ul.cat li a:hover {
 .footer-border .copyright p {
 	margin-bottom: 0;
 	font-size: 14px;
-	color: #6e6e6e;
+	color: #151515;
 }
 .logo-border{
 	border-bottom: 1px solid #e5e5fc;
@@ -3311,7 +3312,7 @@ ul.cat li a:hover {
 	text-transform: uppercase;
 	font-weight: 500;
 	margin-top: 3px;
-	color: #6e6e6e;
+	color: #151515;
 	font-family: 'Rubik', sans-serif;
 	letter-spacing: 1px;
 }
@@ -3384,7 +3385,7 @@ ul.cat li a:hover {
 	margin-top: 15px;
 }
 .bottom-social-icon a {
-	color: #6e6e6e;
+	color: #151515;
 	font-size: 13px;
 	height: 36px;
 	width: 36px;
@@ -3614,7 +3615,7 @@ ul.cat li a:hover {
 	right: 2px;
 }
 .pricing-text h5 {
-	color: #6e6e6e;
+	color: #151515;
 	font-size: 14px;
 	font-weight: 400;
 	margin-bottom: 0;
@@ -3624,7 +3625,7 @@ ul.cat li a:hover {
 	margin-bottom: 55px;
 }
 .pricing-list li {
-	color: #6e6e6e;
+	color: #151515;
 	font-size: 18px;
 	font-weight: 400;
 	padding-bottom: 17px;
@@ -3762,7 +3763,7 @@ ul.cat li a:hover {
 .services-link li:hover::before{opacity: 1;}
 .services-link li a {
 	font-size: 16px;
-	color: #6e6e6e;
+	color: #151515;
 	font-weight: 400;
 	transition: .3s;
 }
@@ -4175,3 +4176,48 @@ ul.cat li a:hover {
 	max-width: 80px;
 	margin: 0 auto;
 }
+.radius_img {
+	border-radius: 15px;
+}
+.logos_head {
+	width: 700px;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+	.about_us_box {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	.about_cont {
+		width: 90%;
+	}
+	.w {
+		margin-top: 40px;
+	}
+	.our-services-img img {
+		max-width: 120px;
+		text-align: center;
+	}
+	.client2-wrapper {
+		max-width: 85%;
+		margin: 0 auto;
+	}
+	.logos_head {
+		width: 90%;
+	}
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 568px) {
+	.day {
+		display: none !important;
+	}
+	.logos_head {
+		width: 100%;
+	}
+
+}
+
+
