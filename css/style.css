@@ -1692,20 +1692,26 @@ label {
 	position: relative;
 	border-radius: 10px;
 }
-.client2-wrapper::before {
-	color: #f8f8f8;
-	content: "";
-	font-family: "Font Awesome 5 Free";
-	font-size: 220px;
-	margin: auto;
-	position: absolute;
-	right: 80px;
-	text-align: center;
-	z-index: 1;
-	font-weight: 600;
-	bottom: 33px;
-	line-height: 1;
+.client2-wrapper img {
+	width: 55% !important;
+	margin: 0 auto;
+	display: block !important;
 }
+
+/*.client2-wrapper::before {*/
+/*	color: #f8f8f8;*/
+/*	content: "";*/
+/*	font-family: "Font Awesome 5 Free";*/
+/*	font-size: 220px;*/
+/*	margin: auto;*/
+/*	position: absolute;*/
+/*	right: 80px;*/
+/*	text-align: center;*/
+/*	z-index: 1;*/
+/*	font-weight: 600;*/
+/*	bottom: 33px;*/
+/*	line-height: 1;*/
+/*}*/
 .client2-wrapper .client-text p {
 	margin-bottom: 27px;
 }
@@ -4208,7 +4214,9 @@ ul.cat li a:hover {
 	}
 }
 @media screen and (max-width: 768px) {
-
+	.client2-wrapper img {
+		width: 100% !important;
+	}
 }
 @media screen and (max-width: 568px) {
 	.day {
